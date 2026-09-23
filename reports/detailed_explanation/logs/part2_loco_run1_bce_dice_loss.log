@@ -1,0 +1,36 @@
+[18:52:28] device=cuda NVIDIA GeForce RTX 4060 Laptop GPU
+[18:52:31] preloaded 40 tiles in 2.8s
+[18:52:31] LOCO: train=1944 val=324 test(all of kitsap)=648
+[18:52:31] loco_train=1944 loco_val=324
+[18:53:28] [loco] epoch  1/30  train_loss=0.3614  val_loss=0.3049  val_IoU=0.6056  val_Dice=0.7544  *best*
+[18:54:22] [loco] epoch  2/30  train_loss=0.2658  val_loss=0.3021  val_IoU=0.5943  val_Dice=0.7455
+[18:55:16] [loco] epoch  3/30  train_loss=0.2477  val_loss=0.2342  val_IoU=0.6857  val_Dice=0.8136  *best*
+[18:56:11] [loco] epoch  4/30  train_loss=0.2356  val_loss=0.2282  val_IoU=0.6881  val_Dice=0.8152  *best*
+[18:57:06] [loco] epoch  5/30  train_loss=0.2192  val_loss=0.2353  val_IoU=0.6954  val_Dice=0.8203  *best*
+[18:58:01] [loco] epoch  6/30  train_loss=0.2123  val_loss=0.2212  val_IoU=0.7070  val_Dice=0.8284  *best*
+[18:58:57] [loco] epoch  7/30  train_loss=0.2101  val_loss=0.2286  val_IoU=0.6971  val_Dice=0.8215
+[18:59:53] [loco] epoch  8/30  train_loss=0.2024  val_loss=0.2149  val_IoU=0.7122  val_Dice=0.8319  *best*
+[19:00:49] [loco] epoch  9/30  train_loss=0.1967  val_loss=0.2079  val_IoU=0.7230  val_Dice=0.8392  *best*
+[19:01:45] [loco] epoch 10/30  train_loss=0.2004  val_loss=0.2031  val_IoU=0.7289  val_Dice=0.8432  *best*
+[19:02:40] [loco] epoch 11/30  train_loss=0.1911  val_loss=0.1840  val_IoU=0.7573  val_Dice=0.8619  *best*
+[19:03:36] [loco] epoch 12/30  train_loss=0.1923  val_loss=0.1941  val_IoU=0.7398  val_Dice=0.8504
+[19:04:32] [loco] epoch 13/30  train_loss=0.1922  val_loss=0.1888  val_IoU=0.7465  val_Dice=0.8548
+[19:05:28] [loco] epoch 14/30  train_loss=0.1850  val_loss=0.2124  val_IoU=0.7172  val_Dice=0.8353
+[19:06:24] [loco] epoch 15/30  train_loss=0.1702  val_loss=0.1730  val_IoU=0.7650  val_Dice=0.8668  *best*
+[19:07:19] [loco] epoch 16/30  train_loss=0.1652  val_loss=0.1747  val_IoU=0.7626  val_Dice=0.8653
+[19:08:15] [loco] epoch 17/30  train_loss=0.1662  val_loss=0.1972  val_IoU=0.7427  val_Dice=0.8524
+[19:09:11] [loco] epoch 18/30  train_loss=0.1663  val_loss=0.1701  val_IoU=0.7679  val_Dice=0.8687  *best*
+[19:10:07] [loco] epoch 19/30  train_loss=0.1628  val_loss=0.1715  val_IoU=0.7645  val_Dice=0.8665
+[19:11:02] [loco] epoch 20/30  train_loss=0.1589  val_loss=0.1737  val_IoU=0.7638  val_Dice=0.8661
+[19:11:58] [loco] epoch 21/30  train_loss=0.1579  val_loss=0.1618  val_IoU=0.7774  val_Dice=0.8748  *best*
+[19:12:54] [loco] epoch 22/30  train_loss=0.1567  val_loss=0.1770  val_IoU=0.7684  val_Dice=0.8690
+[19:13:50] [loco] epoch 23/30  train_loss=0.1519  val_loss=0.1734  val_IoU=0.7720  val_Dice=0.8713
+[19:14:46] [loco] epoch 24/30  train_loss=0.1504  val_loss=0.1673  val_IoU=0.7720  val_Dice=0.8713
+[19:15:41] [loco] epoch 25/30  train_loss=0.1467  val_loss=0.1621  val_IoU=0.7762  val_Dice=0.8740
+[19:16:37] [loco] epoch 26/30  train_loss=0.1440  val_loss=0.1573  val_IoU=0.7857  val_Dice=0.8800  *best*
+[19:17:33] [loco] epoch 27/30  train_loss=0.1422  val_loss=0.1551  val_IoU=0.7880  val_Dice=0.8815  *best*
+[19:18:29] [loco] epoch 28/30  train_loss=0.1422  val_loss=0.1530  val_IoU=0.7897  val_Dice=0.8825  *best*
+[19:19:25] [loco] epoch 29/30  train_loss=0.1420  val_loss=0.1595  val_IoU=0.7867  val_Dice=0.8806
+[19:20:20] [loco] epoch 30/30  train_loss=0.1380  val_loss=0.1574  val_IoU=0.7869  val_Dice=0.8807
+[19:20:20] [loco] done in 1669s. best val_IoU=0.7897
+[19:20:20] saved checkpoint + history to /home/regex/Documents/phd_assignment/artifacts
