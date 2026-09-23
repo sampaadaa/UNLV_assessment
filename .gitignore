@@ -1,0 +1,33 @@
+# --- Python / virtual environment ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Datasets: too large for git, and third-party redistribution isn't ours to do.
+# The professor downloads these from the links in the assessment brief; see code/README.md
+# for exactly where to place them.
+datasets/
+
+# --- Model checkpoints (93MB each, under GitHub's 100MB hard limit) are intentionally committed,
+# not ignored, so the repo runs immediately without retraining. If a future retrain pushes either
+# file over 100MB, re-add "code/artifacts/*.pt" here and use Git LFS or an external link instead.
+
+# --- Not part of the submission: a third-party reference solution kept locally for comparison,
+# not something to publish alongside our own work.
+phd-technical-assessment-reference.ipynb
+
+# --- The original assessment brief: the professor already has this, no need to send it back.
+documents/PhD_Technical_Assessment.pdf
+
+# --- PDF-generation scripts and their figures: how the reports were built, not needed to read
+# or run anything. Kept locally for regenerating the PDFs if the underlying results change.
+documents/detailed_explanation/build_scripts/
+documents/detailed_explanation/logs/
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+*.swp
