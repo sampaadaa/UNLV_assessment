@@ -4,7 +4,7 @@ UNLV, Dept. of Civil and Environmental Engineering and Construction, Dr. Sohn's 
 
 ## What to read first
 
-**`documents/Technical_Assessment_Report.pdf`** is the main deliverable: a concise report covering both parts
+**`reports/Technical_Assessment_Report.pdf`** is the main deliverable: a concise report covering both parts
 (methodology, key results, regression tables, quantitative metrics, and qualitative visual analysis). This is
 what addresses the assessment's own request for a research summary report.
 
@@ -16,7 +16,7 @@ This is exactly what's in this repository; nothing below is hidden or excluded.
 .
 ├── README.md                               <- this file
 │
-├── documents/
+├── reports/
 │   ├── Technical_Assessment_Report.pdf     <- main report, read this first
 │   └── detailed_explanation/               <- fuller reasoning and decision history, not required reading
 │       ├── PART1_PLAN.md                   <- Part 1 roadmap and decision log
