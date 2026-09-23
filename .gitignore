@@ -20,12 +20,12 @@ datasets/
 phd-technical-assessment-reference.ipynb
 
 # --- The original assessment brief: the professor already has this, no need to send it back.
-documents/PhD_Technical_Assessment.pdf
+reports/PhD_Technical_Assessment.pdf
 
 # --- PDF-generation scripts and their figures: how the reports were built, not needed to read
 # or run anything. Kept locally for regenerating the PDFs if the underlying results change.
-documents/detailed_explanation/build_scripts/
-documents/detailed_explanation/logs/
+reports/detailed_explanation/build_scripts/
+reports/detailed_explanation/logs/
 
 # --- OS / editor junk ---
 .DS_Store
